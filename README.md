@@ -20,11 +20,3 @@ pip install pandas scikit-learn scipy
 
 To use the Nearest Neighbors algorithm for classification, you need to have three CSV files containing the labeled data(the data should be numeric). The first file should be the training set, the second should be the validation set, and the third should be the test set. 
 
-You can run the program with the following command:
-
-```
-python classify.py path/to/train.csv path/to/valid.csv path/to/test.csv
-```
-
-This will print the predicted labels of the test set to the console.
-
